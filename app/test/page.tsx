@@ -25,7 +25,7 @@ export default function Home() {
     
     <main className="flex min-h-dvh flex-col items-center justify-between p-24">
       <WaveBackground progress={percent}/>
-      <h1>{mode}</h1>
+      <h1>{mode+"喔耶"}</h1>
       <MyBtn text="++" onClick={()=>setPercent(prev=>Math.min(100,prev+10))}/>
     <MyBtn text="--" onClick={()=>setPercent(prev=> Math.max(0,prev-10))}/>
     </main>
