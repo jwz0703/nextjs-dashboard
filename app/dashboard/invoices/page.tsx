@@ -1,3 +1,4 @@
 export default function Page(){
-  return <h1>fuck</h1>
+  return <h1>fuck you</h1>
+
 }
